@@ -1,0 +1,74 @@
+body {
+  background-color: #F1948A;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+#topQuote{
+  text-align: center;
+  margin-bottom: 10px
+}
+
+nav {
+  margin: 5px 0;
+  text-align: center;
+}
+
+a {
+  margin: 0 2%;
+  padding: 3px 3px;
+  text-decoration: none;
+  color: #8e44ad;
+  font: Impact, sans-serif;
+  background-color: #000000;
+  border-radius: 5px;
+}
+
+#home {
+  
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+video {
+  margin: 5px 28%;
+}
+
+p {
+  word-wrap: normal;
+  margin: 0 30% 0;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  margin: 0 33%;
+}
+
+h4 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+footer {
+  margin-top: 10px;
+}
+
+blockquote {
+  text-align: center;
+}
+
+figcaption {
+  margin: 0 33%;
+}
+
+/*figure {
+  width: 300px;
+  height: 200px;
+  margin: 2em 31em;
+}*/
