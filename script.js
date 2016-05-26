@@ -1,4 +1,6 @@
 var theMode = localStorage.getItem('theMode')
+var counter = localStorage.getItem('counter')
+var xTimes = document.getElementById('xTimes')
 
 function toggleDNMode() {
 
@@ -7,6 +9,7 @@ function toggleDNMode() {
 
   if(theMode === null) {
       theMode = alert("Hello, Marshmallow!")
+      counter = 0
       console.log(theMode)
   }
   //check if window.location.pathname === "/thoughts/"
@@ -30,7 +33,10 @@ function setMode () {
   if (window.location.pathname !== "/thoughts/"){
     return
   }
+  counter++
   document.body.className = theMode
+  localStorage.setItem('counter', counter)
+  xTimes.innerHTML = "You have been to this page " + counter + " times."
 }
 
 setMode();
