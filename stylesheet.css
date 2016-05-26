@@ -1,7 +1,15 @@
-body {
+/*body {
   background-color: #F1948A;
+}*/
+
+.dayMode {
+  background-color: yellow;
 }
 
+.nightMode {
+  background-color: #000000;
+  color: #fff;
+}
 
 h1 {
   text-align: center;
